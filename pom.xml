@@ -142,12 +142,11 @@
                     <api_hoster>app.jelastic.servint.net</api_hoster>
                 </configuration>
             </plugin>
-		<plugin>
-			<groupId>org.codehaus.mojo</groupId>
-			<artifactId>cobertura-maven-plugin</artifactId>
-			<version>2.7</version>
-		</plugin>
-            </plugins>
+	    <plugin>
+	    	<groupId>org.codehaus.mojo</groupId>
+		<artifactId>cobertura-maven-plugin</artifactId>
+		<version>2.7</version>
+	    </plugin>
 	    <plugin>
               <groupId>com.lazerycode.jmeter</groupId>
               <artifactId>jmeter-maven-plugin</artifactId>
@@ -160,8 +159,8 @@
                       </goals>
                   </execution>
               </executions>
-          </plugin>
-
+            </plugin>
+	</plugins>
         <pluginManagement>
             <plugins>
                 <plugin>
